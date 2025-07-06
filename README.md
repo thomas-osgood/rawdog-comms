@@ -14,3 +14,17 @@ This module defines the basic communication protocol that is used in Rawdog TCP 
 - **Block 4**: Next SIZE DATA (`SZ_DAT`) bytes. This is the data/payload that is being transmitted. This is expected to be `base64-encoded` data.
 
 _note: all byte blocks are expected to be in Big Endian formatting._
+
+### Metadata
+
+```json
+{
+  "Agentname": "my-cutsom-agent",
+  "Endpoint": 0,
+  "Addldata": ""
+}
+```
+
+- Agentname: This is the equivalent of HTTP's `User-Agent` header.
+- Endpoint: Server endpoint that will process the transmission. This is **required** for client-to-server transmissions.
+- Addldata: Any additional metadata that is to be transmitted.
