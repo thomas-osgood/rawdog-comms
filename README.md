@@ -25,6 +25,6 @@ _note: all byte blocks are expected to be in Big Endian formatting._
 }
 ```
 
-- Agentname: This is the equivalent of HTTP's `User-Agent` header.
-- Endpoint: Server endpoint that will process the transmission. This is **required** for client-to-server transmissions.
-- Addldata: Any additional metadata that is to be transmitted.
+- **Agentname**: This is the equivalent of HTTP's `User-Agent` header.
+- **Endpoint**: Server endpoint that will process the transmission. This is **required** for client-to-server transmissions.
+- **Addldata**: Any additional metadata that is to be transmitted.
