@@ -28,3 +28,9 @@ _note: all byte blocks are expected to be in Big Endian formatting._
 - **Agentname**: This is the equivalent of HTTP's `User-Agent` header.
 - **Endpoint**: Server endpoint that will process the transmission. This is **required** for client-to-server transmissions.
 - **Addldata**: Any additional metadata that is to be transmitted.
+
+## Associated Respositories
+
+1. [Golang Server](https://github.com/thomas-osgood/rawdog-server)
+1. [Python3 Client Class](https://github.com/thomas-osgood/rawdogpy)
+1. [Rust Client](https://github.com/thomas-osgood/rawdog-rust)
